@@ -1,0 +1,37 @@
+{
+  "name": "evm-rwa-real-estate-nft",
+  "version": "1.0.0",
+  "description": "Fractional Real Estate NFT Smart Contract System - A RealT-inspired tokenized real estate platform",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "verify": "hardhat verify",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "nft",
+    "real-estate",
+    "fractional-ownership",
+    "rwa",
+    "yield-distribution"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.0.0",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0"
+  }
+}
